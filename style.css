@@ -1,4 +1,13 @@
 
 .main-head{
     size: 200%;
+    color: black;
+    font-family: Arial Black, Arial;
+    background-color: powderblue;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:coral;
+    size: 150%;
 }
