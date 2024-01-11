@@ -11,3 +11,8 @@
     color:coral;
     size: 150%;
 }
+
+.homepage-image{
+    max-width: 100%;
+    width: auto;
+}
