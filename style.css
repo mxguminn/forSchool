@@ -21,11 +21,11 @@ img{
     width: 100%;
 }
 footer{
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: powderblue;
+    background-color: #faf2e8;
 }
 .homepage-image{
     width: 100%;
