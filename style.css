@@ -5,6 +5,9 @@
     font-family: 'Nunito', sans-serif;
     background-color: #faf2e8;
     max-width:100%;
+
+    position: sticky;
+    top: 0;
 }
 
 .main-head-item{
@@ -28,7 +31,7 @@ footer{
     background-color: #faf2e8;
 }
 .homepage-image{
-    width: 100%;
+    width: 50%;
 }
 .page-image{
     width: 85%;
