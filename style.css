@@ -2,14 +2,14 @@
 .main-head{
     size: 200%;
     color: black;
-    font-family: Arial Black, Arial;
+    font-family: 'Nunito', sans-serif;
     background-color: powderblue;
 }
 
 .body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     color:black;
-    size: 200%;
+    size: 400%;
 }
 img{
     width: 100%;
