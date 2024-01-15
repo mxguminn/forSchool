@@ -21,8 +21,8 @@
 .homepage-body{
     font-family: 'Nunito', sans-serif;
     color:black;
-    size: 600%;
-    padding-top: 50px;
+    size: 500px;
+    padding: 50px 0px;
 }
 
 header{
@@ -39,7 +39,8 @@ footer{
 .homepage-image{
     width: 50%;
     padding: 40px;
-    
+    display: contents;
+    max-width: 60%;
 }
 .page-image{
     width: 85%;
