@@ -5,7 +5,6 @@
     font-family: 'Nunito', sans-serif;
     background-color: #faf2e8;
     max-width:100%;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -20,6 +19,12 @@
     color:black;
     size: 400%;
 }
+.homepage-body{
+    font-family: 'Nunito', sans-serif;
+    color:black;
+    size: 600%;
+    padding-top: 50px;
+}
 img{
     width: 100%;
 }
@@ -33,26 +38,23 @@ footer{
 .homepage-image{
     width: 50%;
     padding: 40px;
-    align-content: center;
-    align-items: center
+    
 }
 .page-image{
     width: 85%;
 }
-
-a:link{
-    color:magenta;
+a{
     text-decoration: none;
+}
+a:link{
+    color:navy;
 }
 a:visited{
     color: gray;
-    text-decoration: none;
 }
 a:hover{
     color: red;
-    text-decoration: none;
 }
 a:active{
     color: magenta;
-    text-decoration: none;
 }
