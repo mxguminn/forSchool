@@ -5,8 +5,7 @@
     font-family: 'Nunito', sans-serif;
     background-color: #faf2e8;
     max-width:100%;
-    position: sticky;
-    top: 0;
+    border-spacing: 50px;
 }
 
 .main-head-item{
@@ -26,6 +25,10 @@
     padding-top: 50px;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
 footer{
     position: relative;
     left: 0;
