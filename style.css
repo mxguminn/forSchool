@@ -3,7 +3,12 @@
     size: 200%;
     color: black;
     font-family: 'Nunito', sans-serif;
-    background-color: powderblue;
+    background-color: #faf2e8;
+}
+
+.main-head-item{
+    padding-left: 50px;
+    text-align: right;
 }
 
 .body{
