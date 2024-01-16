@@ -27,6 +27,13 @@ html{
     size: 500px;
     padding: 50px 0px;
 }
+.page1-body{
+    font-family: 'Nunito', sans-serif;
+    color:black;
+    size: 1500px;
+    padding: 50px 20px;
+    
+}
 
 header{
     position: sticky;
