@@ -57,7 +57,11 @@ header{
     
 }
 .page-image{
-    width: 85%;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 a{
     text-decoration: none;
