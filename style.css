@@ -35,12 +35,15 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: #faf2e8;
+    font-family: 'Nunito', sans-serif;
+    
 }
 .homepage-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    padding: 40px;
-    display: contents;
-    max-width: 60%;
+    
 }
 .page-image{
     width: 85%;
