@@ -40,6 +40,14 @@ header{
     background-color: #faf2e8;
     font-family: 'Nunito', sans-serif;
 }
+.main-footer{
+    max-width: 100%;
+    border-spacing: 50px;
+}
+.main-footer-item{
+    padding-left: 100px;
+    text-align: right;
+}
 .homepage-image{
     padding-top: 50px;
     display: block;
