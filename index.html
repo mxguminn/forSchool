@@ -30,10 +30,10 @@
         
         
         <div class = "homepage-image zoom">
-            <img style = "max-width: 100%" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png">
+            <img id = "homepage-image" style = "max-width: 100%" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png">
         </div>
 
-        <div class = "homepage-body" align = "center">
+        <div class = "homepage-body" align = "center" id = "test">
             <br>This is a website about a lot of different things
             <br>Or it could be about nothing
             <br>unless you click one of the links above
@@ -54,15 +54,13 @@
         </footer>
         <script>
             function darkMode() {
-                // var element = document.body;    
-                // element.classList.toggle("dark-mode");
+                var element = document.getElementById("test");    
+                element.classList.toggle("dark-mode");
 
-                var element2 = document.getElementsByClassName("homepage-body");
-                element2.classList.toggle("dark-mode");
-                if (document.getElementById("imgClickAndChange").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png"){
-                    document.getElementById("imgClickAndChange").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
+                if (document.getElementById("homepage-image").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png"){
+                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
                 } else {
-                    document.getElementById("imgClickAndChange").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
+                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
                 }
 
             }
