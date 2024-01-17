@@ -21,6 +21,7 @@
                             <td class = "main-head-item"><a href = "index.html">home</a></td>
                             <td class = main-head-item><a href = "pages/pillarsOfCreation.html">page1</a></td>
                             <td class = main-head-item><a href = "pages/theScream.html">page2</a></td>
+                            <div class = "darkmode-button main-head-item"><td onclick="darkMode()">dark mode</td></div>
                         </tr>
                     </table>
                 </nav>
@@ -52,5 +53,12 @@
                 
             </div>
         </footer>
-    </body>
+        <script>
+            function darkMode() {
+                var element = document.body;    
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body> 
+    
 </html>

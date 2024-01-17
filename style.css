@@ -70,6 +70,12 @@ header{
     margin-right: auto;
 
 }
+
+.dark-mode{
+    background-color: black;
+    color:white;
+}
+
 .zoom {
     transition: transform .2s; /* Animation */
 }
