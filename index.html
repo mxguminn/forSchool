@@ -11,8 +11,8 @@
     </head>
 
     <body>
-        <header>
-            <div class = "main-head">
+        <header >
+            <div class = "main-head" id = "header">
                 <nav>
                     <table>
                         <tr>
@@ -28,19 +28,19 @@
 
         </header>
         
-        <div class = "test">
-            <div class = "homepage-image zoom">
-                <img id = "homepage-image" style = "max-width: 100%" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png">
-            </div>
+        
+        <div class = "homepage-image zoom">
+            <img id = "homepage-image" style = "max-width: 100%" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png">
         </div>
-        <div class = "test homepage-body " align = "center">
+
+        <div class = "homepage-body" id = "homepage-body" align = "center">
             <br>This is a website about a lot of different things
             <br>Or it could be about nothing
             <br>unless you click one of the links above
         </div>
 
         <footer>
-            <div class = "footer">
+            <div class = "footer" id = "footer">
                 <table class ="main-footer">
                     <tr>
                         <td><h2>This is a footer to show i can make a footer</h2></td>
@@ -54,15 +54,21 @@
         </footer>
         <script>
             function darkMode() {
-                var element = document.querySelector(".test");    
+                var element1 = document.getElementById("homepage-image");    
+                var element2 = document.getElementById("homepage-body");
+
+                var element3 = document.getElementById("header");
+                var element4 = document.getElementById("footer");
                 
-                element.classList.toggle("dark-mode");
-                
+                element1.classList.toggle("dark-mode");
+                element2.classList.toggle("dark-mode");
+                element3.classList.toggle("dark-mode-header");
+                element4.classList.toggle("dark-mode-header");
 
                 if (document.getElementById("homepage-image").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png"){
                     document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
                 } else {
-                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png";
+                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
                 }
 
             }

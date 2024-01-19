@@ -76,6 +76,11 @@ header{
     color:white;
 }
 
+.dark-mode-header{
+    background-color: #02041f;
+    color: white;
+}
+
 .zoom {
     transition: transform .2s; /* Animation */
 }
