@@ -29,11 +29,11 @@
         </header>
         
         
-        <div class = "homepage-image zoom">
+        <div class = "homepage-image zoom test">
             <img id = "homepage-image" style = "max-width: 100%" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png">
         </div>
 
-        <div class = "homepage-body" align = "center" id = "test">
+        <div class = "homepage-body test" align = "center">
             <br>This is a website about a lot of different things
             <br>Or it could be about nothing
             <br>unless you click one of the links above
@@ -54,13 +54,15 @@
         </footer>
         <script>
             function darkMode() {
-                var element = document.getElementById("test");    
+                var element = document.getElementsByClassName("test");    
+                
                 element.classList.toggle("dark-mode");
+                
 
                 if (document.getElementById("homepage-image").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png"){
                     document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
                 } else {
-                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
+                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png";
                 }
 
             }
