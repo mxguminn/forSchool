@@ -29,11 +29,11 @@
         </header>
         
         
-        <div class = "page-image" style = "width: 70%;">
+        <div class = "page-image" id = "page-image" style = "width: 70%;">
             <img style = "max-width: 100%" src = "https://stsci-opo.org/STScI-01GFNR1KZZP67FFGV8Y26KR0VW.png">
         </div>
 
-        <div class = "page1-body">
+        <div class = "page1-body" id = "page-body">
             <br>This is a side by side comparison of the Pillars of Creation
             <br>The picture on the left was taken by HST and the picture on the right was taken by JWST
             <br>While the Hubble Space Telescope's imaging uses visible light, the James Webb Space Telescope's image is in near-infrared.
@@ -55,8 +55,8 @@
         </footer>
         <script>
             function darkMode() {
-                var element1 = document.getElementById("homepage-image");    
-                var element2 = document.getElementById("homepage-body");
+                var element1 = document.getElementById("page-image");    
+                var element2 = document.getElementById("page-body");
 
                 var element3 = document.getElementById("header");
                 var element4 = document.getElementById("footer");
