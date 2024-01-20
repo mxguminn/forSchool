@@ -2,6 +2,9 @@ html{
     width: 100%;
     height: 100%;
 }
+body{
+    margin: 0px;
+}
 .main-head{
     size: 200%;
     color: black;
