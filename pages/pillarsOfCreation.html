@@ -12,15 +12,15 @@
 
     <body>
         <header>
-            <div class = "main-head">
-
+            <div class = "main-head" id = "header">
                 <nav>
-                    <table cellspacing = "50">
+                    <table >
                         <tr>
-                            <td style = "padding-right: 60px;"><h1>a website</h1></td>
-                            <td class = "main-head-item"><a href = "../index.html">home</a></td>
-                            <td class = main-head-item><a href = "pillarsOfCreation.html">page1</a></td>
-                            <td class = main-head-item><a href = "theScream.html">page2</a></td>
+                            <td class = "main-head-item" style = "padding-right: 60px;"><h1>a website</h1></td>
+                            <td class = "main-head-item"><a href = "index.html">home</a></td>
+                            <td class = main-head-item><a href = "pages/pillarsOfCreation.html">page1</a></td>
+                            <td class = main-head-item><a href = "pages/theScream.html">page2</a></td>
+                            <td class = "darkmode-button main-head-item" onclick="darkMode()">dark mode</td>
                         </tr>
                     </table>
                 </nav>
@@ -41,18 +41,40 @@
 
 
         <footer>
-            <div class = "footer">
-                <table class ="main-footer">
+            <div class = "footer" id = "footer">
+                <table class ="main-footer" >
                     <tr>
                         <td><h2>This is a footer to show i can make a footer</h2></td>
-                        <td class = "main-footer-item"><a href = "../index.html">home</a></td>
-                        <td class = "main-footer-item"><a href = "pillarsOfCreation.html">page1</a></td>
-                        <td class = "main-footer-item"><a href = "theScream.html">page2</a></td>
+                        <td class = "main-footer-item"><a href = "index.html">home</a></td>
+                        <td class = "main-footer-item"><a href = "pages/pillarsOfCreation.html">page1</a></td>
+                        <td class = "main-footer-item"><a href = "pages/theScream.html">page2</a></td>
                     </tr>
                 </table>
                 
             </div>
         </footer>
+        <script>
+            function darkMode() {
+                var element1 = document.getElementById("homepage-image");    
+                var element2 = document.getElementById("homepage-body");
+
+                var element3 = document.getElementById("header");
+                var element4 = document.getElementById("footer");
+                
+                element1.classList.toggle("dark-mode");
+                element2.classList.toggle("dark-mode");
+                element3.classList.toggle("dark-mode-header");
+                element4.classList.toggle("dark-mode-header");
+
+                if (document.getElementById("image-switch").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png"){
+                    document.getElementById("image-switch").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Solid_white_bordered.svg/600px-Solid_white_bordered.svg.png?20121007015337";
+                } else {
+                    document.getElementById("image-switch").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png";
+                }
+
+            }
+            
+        </script>
 
     </body>
 </html>
