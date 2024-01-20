@@ -30,7 +30,7 @@
         
         <div id = "homepage-image"> 
             <div class = "homepage-image zoom">
-                <img  style = "max-width: 100%" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png">
+                <img  id = "image-switch" style = "max-width: 100%" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png">
             </div>
         </div>
         <div class = "homepage-body" id = "homepage-body" align = "center">
@@ -65,10 +65,10 @@
                 element3.classList.toggle("dark-mode-header");
                 element4.classList.toggle("dark-mode-header");
 
-                if (document.getElementById("homepage-image").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png"){
-                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
+                if (document.getElementById("image-switch").src == "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png"){
+                    document.getElementById("image-switch").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Solid_white_bordered.svg/600px-Solid_white_bordered.svg.png?20121007015337";
                 } else {
-                    document.getElementById("homepage-image").src = "https://upload.wikimedia.org/wikipedia/commons/d/de/White_Square.svg";
+                    document.getElementById("image-switch").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/1200px-Solid_black.svg.png";
                 }
 
             }
